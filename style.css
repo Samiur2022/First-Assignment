@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.mission{
+    display: flex;
+}
+.half_width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half_width h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.half_width .left_head{
+    border-left: 5px solid #5260df;
+    padding-left: 10px;
+}
+.half_width .color_heading{
+    color: #5260df;
+}
+.half_width img{
+    width: 50%;
+    margin-left: 30%;
+}
+.half_width a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #5260df;
+    color: #fff;
+    text-transform: capitalize;
+}

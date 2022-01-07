@@ -16,6 +16,15 @@ body{
     font-size: 40px;
     font-weight: 800;
 }
+.half_width h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.half_width p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.5rem;
+}
 .half_width .left_head{
     border-left: 5px solid #5260df;
     padding-left: 10px;
@@ -34,5 +43,93 @@ body{
     border: 1px solid transparent;
     background-color: #5260df;
     color: #fff;
+    text-transform: capitalize;  
+}
+.mission .misson_inner{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
     text-transform: capitalize;
+    border-radius: 10px;
+}
+.mission .misson_inner img{
+    width: 50%;
+}
+#misson{
+    background-color: rgb(255, 219, 213);
+}
+#vission{
+    background-color: rgb(255, 249, 181);
+}
+#goals{
+    background-color: rgb(218, 228, 255);
+}
+.misson_head h2{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 50px;
+}
+.misson_inner p{
+    line-height: 1.5rem;  
+}
+.misson_head h2 .inner_head{
+    color: #5260df;
+}
+.coding_Area{
+    display: flex;
+    margin-top: 150px;
+}
+.text_image{
+    position: relative;
+}
+#text_img{
+    width: 27%;
+    position: absolute;
+    z-index: -1;
+    top: 36px;
+    left: -61px;
+}
+#img_glob{
+    width: 27%;
+    position: absolute;
+    z-index: -1;
+    right: 35px;
+    bottom: -69px; 
+}
+#basic{
+    background: rgba( 208, 2, 27, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#silver{
+    background: rgba( 248, 231, 28, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#gold{
+    background: rgba( 74, 144, 226, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+footer{
+    text-align: center;
+    margin-top: 150px;
+    background: rgba( 65, 117, 5, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
